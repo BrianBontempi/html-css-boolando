@@ -10,6 +10,7 @@
 header{
     display: flex;
     position: fixed;
+    z-index: 2;
     background-color: rgb(255, 123, 0);
     height: 60px;
     width: 100%;
@@ -48,14 +49,44 @@ a{
 .card{
     position: relative;
     flex-basis: 400px;
+    margin-bottom: 100px;
 }
-.card > img{
+.main{
     height: 100%;
-    width: 100%;
-    position: absolute;
+    width: 100%;    
 }
 .hidden{
+    height: 100%;
+    width: 100%;
+    display: none;
     position: absolute;
+    top: 0;
+    left: 0;
+}
+.favorite{
+    position: absolute;
+    top: 10px;
+    right: 0;
+    z-index: 1;
+    background-color: white;
+    padding: 15px;
+}
+
+/* ? regole hoover */
+.card:hover .main{
     display: none;
 }
+.card:hover .hidden{
+    display: block;
+}
+.fas:hover{
+    display: none;
+}
+.fas:hover{
+    display: inline-block;
+    color: red;
+}
+
+
+
 

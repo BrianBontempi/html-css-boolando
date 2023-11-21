@@ -49,7 +49,7 @@ a{
 .card{
     position: relative;
     flex-basis: 400px;
-    margin-bottom: 100px;
+    margin-bottom: 80px;
 }
 .main{
     height: 100%;
@@ -69,7 +69,37 @@ a{
     right: 0;
     z-index: 1;
     background-color: white;
+}
+.sale{
+    position: absolute;
+    z-index: 1;
+    bottom: 40px;
+    left: 0;
+    background-color: red;
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+}
+.sostenibility{
+    position: absolute;
+    z-index: 1;
+    bottom: 40px;
+    left: 50px;
+    background-color: green;
+    color: white;
+    padding: 4px 8px;
+    font-size: 12px;
+}
+.sostenibility.left{
+    left: 0;
+}
+.fas{
     padding: 15px;
+}
+h2{
+    position: relative;
+    z-index: 1;
+    font-size: 15px;
 }
 
 /* ? regole hoover */

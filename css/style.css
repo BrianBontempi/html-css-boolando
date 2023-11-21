@@ -21,6 +21,7 @@ header > div{
     justify-content: center;
     align-items: center;
     gap: 5px;
+    margin-left: 35px
 }
 .logo > img{
     height: 50%;
@@ -29,3 +30,32 @@ a{
     color: white;
     text-decoration: none;
 }
+
+/* sezione dello shop */
+.shop{
+    display: flex;
+    justify-content: center;
+}
+.deck-shop{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-basis: 80%;
+    flex-wrap: wrap;
+    min-height: 700px;
+    padding-top: 100px;
+}
+.card{
+    position: relative;
+    flex-basis: 400px;
+}
+.card > img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+.hidden{
+    position: absolute;
+    display: none;
+}
+

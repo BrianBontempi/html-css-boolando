@@ -53,13 +53,14 @@ a{
 }
 .main{
     height: 100%;
-    width: 100%;    
+    width: 100%; 
+    display: inline-block;  
 }
 .hidden{
     height: 100%;
     width: 100%;
     display: none;
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     left: 0;
 }
@@ -107,14 +108,14 @@ h2{
     display: none;
 }
 .card:hover .hidden{
-    display: block;
+    display: inline-block;
 }
 .fas:hover{
     display: none;
 }
 .fas:hover{
-    display: inline-block;
     color: red;
+    display: inline-block;
 }
 
 

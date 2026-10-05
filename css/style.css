@@ -133,3 +133,41 @@ h2{
     color: red;
 }
 
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+    color: white;
+    padding: 40px 10%;
+}
+footer h3{
+    margin-bottom: 15px;
+}
+.legal a{
+    display: inline-block;
+    font-size: 13px;
+    margin-right: 10px;
+    margin-bottom: 5px;
+}
+.social{
+    text-align: right;
+}
+.social h4{
+    margin-bottom: 15px;
+}
+.social a{
+    display: inline-block;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    background-color: white;
+    color: rgb(43, 43, 43);
+    margin-left: 5px;
+}
+.social a:hover{
+    background-color: rgb(255, 123, 0);
+    color: white;
+}
